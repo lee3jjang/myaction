@@ -10,7 +10,7 @@ jobs:
         uses: lee3jjang/myaction
         with:
           who-to-greet: 'Mona the Octocat'
-      - name: 에니악입니다!?
+      - name: 에니악입니다!?!!
         run: |
           echo random-number ${{ steps.foo.outputs.generator }}
           echo "Hello Aniac"
