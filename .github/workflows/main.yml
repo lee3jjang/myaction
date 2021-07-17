@@ -12,6 +12,6 @@ jobs:
           who-to-greet: 'Mona the Octocat'
       - name: 에니악입니다!?!!
         run: |
-          echo random-number ${{ steps.foo.outputs.random-number }}
+          echo mynumber ${{ steps.foo.outputs.mynumber }}
           echo "Hello Aniac"
         shell: bash
