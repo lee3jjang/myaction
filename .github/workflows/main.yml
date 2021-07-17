@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - id: foo
-        uses: lee3jjang/myaction@v1
+        uses: lee3jjang/myaction
         with:
           who-to-greet: 'Mona the Octocat'
       - name: 에니악입니다!?
