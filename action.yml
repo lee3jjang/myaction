@@ -1,5 +1,6 @@
 name: 'Hello World'
 description: 'Greet someone'
+
 inputs:
   who-to-greet:
     description: 'Who to greet'
@@ -9,6 +10,7 @@ outputs:
   random-number:
     description: "Random number"
     value: ${{ steps.xxxx.outputs.youtube }}
+
 runs:
   using: "composite"
   steps:
