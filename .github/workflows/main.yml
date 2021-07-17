@@ -10,6 +10,6 @@ jobs:
         uses: lee3jjang/myaction@v1
         with:
           who-to-greet: 'Mona the Octocat'
-      - name: 에니악입니다
-        run: echo random-number ${{ steps.foo.outputs.yyyy }}
+      - name: 에니악입니다!?
+        run: echo random-number ${{ steps.foo.outputs.generator }}
         shell: bash
