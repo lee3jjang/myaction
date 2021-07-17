@@ -6,15 +6,15 @@ inputs:
     required: true
     default: 'World'
 outputs:
-  random-number:
+  yyyy:
     description: "Random number"
-    value: ${{ steps.random-number-generator.outputs.youtube }}
+    value: ${{ steps.xxxx.outputs.youtube }}
 runs:
   using: "composite"
   steps:
     - run: echo Hello ${{ inputs.who-to-greet }}
       shell: bash
-    - id: random-number-generator
+    - id: xxxx
       run: echo "::set-output name=youtube::$(echo $RANDOM)"
       shell: bash
     - run: ${{ github.action_path }}/goodbye.sh
