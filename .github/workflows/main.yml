@@ -8,10 +8,8 @@ jobs:
       - uses: actions/checkout@v2
       - id: foo
         uses: lee3jjang/myaction@v1
-        with:
-          who-to-greet: 'Mona the Octocat'
       - name: 에니악입니다!?!!
         run: |
-          echo mynumber ${{ steps.foo.outputs.mynumber }}
+          echo mynumber ${{ steps.foo.outputs.random-number }}
           echo "Hello Aniac"
         shell: bash

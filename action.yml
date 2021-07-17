@@ -6,7 +6,7 @@ inputs:
     required: true
     default: 'World'
 outputs:
-  mynumber:
+  random-number:
     description: "Random number"
     value: ${{ steps.xxxx.outputs.youtube }}
 runs:
